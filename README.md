@@ -9,8 +9,8 @@
 7. Find the <b> upload theme </b> then click, choose file then locate your zip cloned repo.
 
 # after installing the theme
-1. Go to your cloned repo and find the <b>exported code.txt<b>
-2. Open the file and copy the text inside *make sure to copy all the contents inside*
+1. Go to your cloned repo and find the <b>exported code.txt</b>
+2. Open the file and copy the text inside. **make sure to copy all the contents inside**
 3. Back to wordpress and find <b> Discy </b> in the left panel.
 4. Click <b> Discy </b> then find Advanced settings. *located at the bottom*
 5. Click <b> Advanced settings </b> and go to import setting and paste ythe copied text from <b> exported code </b> earlier.
