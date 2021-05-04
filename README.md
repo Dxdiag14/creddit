@@ -7,6 +7,10 @@
 5. go to dashboard and locate appearance > themes.
 6. Find the <b> add new </b> then click.
 7. Find the <b> upload theme </b> then click, choose file then locate your zip cloned repo.
+8. After installing the theme, you also need to install and activate 2 plugins. **You will notice it after installing the theme, the begin to install the plugins**
+9. Install this two and activate:
+--1. Contact Form 7
+--2. WPQA - The Wordpress Questions And Answers Plugin
 
 # after installing the theme
 1. Go to your cloned repo and find the <b>exported code.txt</b>
