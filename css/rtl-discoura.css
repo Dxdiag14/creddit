@@ -1,0 +1,66 @@
+/* Discoura */
+.discoura .question-image-vote {
+	margin-left: 0;
+	float: none;
+}
+.discoura .question-image-vote .author-image {
+	float: right;
+	margin-left: 20px;
+}
+.discoura .question-inner .question-image-vote > .profile-credential {
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+.discoura .article-question .badge-span {
+	margin-right: 5px;
+}
+.discoura .question-image-vote .post-author,.discoura .question-image-vote span.verified_user {
+	margin-left: 10px;
+}
+.discoura .question-image-vote span.verified_user {
+	margin-right: 0;
+}
+.discoura .author-image-pop-2 span.verified_user {
+	margin-right: 10px;
+}
+.discoura .author-image-pop-2 span.verified_user {
+	margin-left: 0;
+}
+.discoura-not-credential .question-image-vote > .post-author,.discoura-not-credential .question-image-vote > .badge-span,.discoura-not-credential .question-image-vote > .question-author-un {
+	margin-top: 12px;
+}
+.discoura .header-simple .right-header {
+	margin-right: 0;
+}
+.discoura .header-search input[type="search"] {
+	padding-right: 35px;
+}
+.discoura .search-click {
+	right: 0;
+	left: initial;
+}
+.discoura .header-search button {
+	right: 10px;
+	left: initial;
+	padding-left: 18px;
+	padding-right: 0;
+}
+.discoura nav.nav > ul > li a:hover,.discoura nav.nav > ul > li:hover a,.discoura nav.nav > ul > li.current_page_item a,.discoura nav.nav > ul > li.current-menu-item a {
+	background-color: transparent;
+}
+.discoura nav.nav > ul > li > a:hover,.discoura nav.nav > ul > li:hover > a,.discoura nav.nav > ul > li.current_page_item > a,.discoura nav.nav > ul > li.current-menu-item > a {
+	border-bottom: 2px solid;
+	padding-bottom: 32px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+.discoura .header-2 nav.nav > ul > li > a:hover,.discoura .header-2 nav.nav > ul > li:hover > a,.discoura .header-2 nav.nav > ul > li.current_page_item > a,.discoura .header-2 nav.nav > ul > li.current-menu-item > a {
+	padding-bottom: 22px;
+}
+.discoura .header-2 nav.nav > ul > li a:hover,.discoura .header-2 nav.nav > ul > li:hover > a {
+	margin-bottom: 0;
+}
+.discy-boxed .nav_menu.nav_menu_2,.discoura.discy-boxed .nav_menu.nav_menu_3 {
+	padding-top: 30px;
+}

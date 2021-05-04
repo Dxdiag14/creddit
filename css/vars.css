@@ -1,0 +1,518 @@
+/* Margin & Padding & Border */
+.header-search input,.user-login-click > ul li:last-child,.user-notifications > div > ul li:last-child,.nav_menu > ul ul li:last-child,.nav_menu > div > ul ul li:last-child,.nav_menu > div > div > ul ul li:last-child,.widget .user-notifications.user-profile-area > div > ul > li:last-child,.subscribe-widget form input[type="text"],.referral-invitation input[type="text"],.post-content *:last-child,.post-no-content.attachment-post .post-img,.user-head-area .author-image,.user-stats > ul,.user-follower > ul,.user-stats > ul > li > div > div h4,.referral-stats > ul > li > div > div > h4,.user-section-small .user-data ul li:last-child,.pagination-wrap .no-comments,.post-section .post-inner .post-content-text .wp-caption-text,blockquote > :last-child,.category-description > p,.commentlist li:last-child #respond.comment-respond,.commentlist li.comment li.comment,.commentlist .children li:last-child .comment-body,.commentlist li.comment.pingback .comment-body,.private-question .alert-message,.alert-message p,.post-contact form p input,.post-contact form p textarea,.post-contact form div.post-section.post-contact-us,.accordion .accordion-content:last-child,.accordion .accordion-title,.pop-header h3,.pop-header p,.wpqa_form p input,.the-title-div input,.wpqa_form p textarea,.wpqa_textarea textarea,.wpqa_form .form-submit,.fakefile button,.points-section:not(.buy-points-section) ul li p,.badges-section ul li p,.points-section ul,.badges-section ul,.widget_archive li li,.widget_pages li li,.widget_meta li li,.media-cat-filter li li,.widget_categories li li,.widget_nav_menu ul li li,.widget_rss li:last-child,.widget_recent_entries li:last-child,.widget_recent_comments li:last-child,.widget_pages li:last-child,.widget_archive li:last-child,.widget_meta li:last-child,.widget_categories li:last-child,.widget_nav_menu li:last-child,.widget li:last-child,.widget-posts .user-notifications.user-profile-area > div > ul > li:last-child,.related-widget .user-notifications.user-profile-area > div > ul > li:last-child,.users-widget .user-section .col12:last-child .post-section.user-area,.widget-title-tabs .tabs li,.page-template-template-contact .article-post,.page-template-template-faqs .article-post,.page-template-template-categories .article-post,.page-template-template-tags .article-post,.page-template-template-users .article-post,.commentlist li.comment ul.children li.comment,.commentlist li.comment ul.children li.discy-ad,.page-sections .page-section:last-child,.user-columns-data ul li:last-child,.user-section-columns .user-area .user-content > .user-inner h4,.author-image-pop-2 .user-area .user-content > .user-inner h4,.commentlist > li.comment:last-child,.commentlist > li.comment:last-child .comment-body,.commentlist li.comment ul.children li.comment:last-child .comment-body,.commentlist li.comment ul.children li.discy-ad:last-child,.single-question .commentlist #respond.comment-respond,.commentslist:last-child .commentlist,#section-messages .commentlist:last-child,.comment-form .alert-message:last-child,.mobile-aside .post-search,.badges-section ul li:last-child,.no-login-comment,.ui-datepicker-calendar,#respond .form-submit,#respond .wpqa_captcha_normal .wpqa_captcha,.widget-posts .user-notifications.user-profile-area > div > ul > li.widget-no-meta h3,.wpqa_captcha_question .wpqa_captcha_p input,.panel-pop-content > .alert-message:last-child,.post-style-2 .post-img,.related-post-links.related-post ul li:last-child a,.discy-ad.discy-ad-footer,.still-not-votes,.widget-post-style-2.user-notifications > div > ul li div > *:last-child,.article-question .question-share .post-share > ul li,.comment-share.question-share .post-share > ul li,.discy-login-2 .login-text-col h1,.mobile-bar-search input[type="search"],.call-action-unlogged.call-action-style_1 p,.nav_menu > ul li:last-child,.nav_menu > div > ul li:last-child,.nav_menu > div > div > ul li:last-child,.nav_menu.nav_menu_2 > ul > li,.nav_menu.nav_menu_2 > div > ul > li,.nav_menu.nav_menu_2 > ul ul,.nav_menu.nav_menu_2 > div > ul ul,.nav_menu.nav_menu_3 > ul ul,.nav_menu.nav_menu_3 > div > ul ul,.widget_child_categories .categories-toggle-accordion,.widget_child_categories .categories-toggle-accordion .accordion-title,.widget_child_categories .categories-toggle-accordion .accordion-title a,.post-style-3 .post-content,.box-question,.comment-author .profile-credential,.comment-share.question-share .post-share,.article-question .post-title .post-title,.article-post .post-title .post-title,.widget-post-style-2 .blog-post-button,.featured_image_question.featured_image_after,.wpqa_result_poll_image .progressbar,.wpqa_result_poll_image .progressbar-percent,.wpqa_category > ul,.single-inner-content .question-bottom .commentlist,.wpqa_result_poll_image .progressbar-title,.question-simple .question-favorites .small_loader.loader_2,.question-simple .question-followers .small_loader.loader_2,.form-input-polls,.question-simple .footer-meta li.question-list-details li,.sidebar:not(.footer-sidebar) .widget:last-child,.post-contact form p:nth-last-child(2),.slider-form form input[type="text"],.slider-form form input[type="search"],.no-results.not-found input[type="submit"],.wpqa-login-already > p:last-child,.wpqa-subscriptions-template > .alert-message:last-child,.wpqa-buy-points-template > .alert-message:last-child,.comment-with-title .post-meta,.subscriptions-section .subscribe-section > ul li:last-child,.buy-points-section .point-section > ul li:last-child,.wpqa-add-category-template > .alert-message:last-child,.wpqa-default-template > .alert-message:last-child,.wpqa-add-question-template > .alert-message:last-child,.wpqa-checkout-template > .alert-message:last-child,.wpqa-add-post-template > .alert-message:last-child,.wpqa-profile .post-section.user-area.user-advanced,.wpqa-cover-content .user-head-area,.wpqa-cover-content .user-area .user-content > .user-inner .badge-span,.wpqa-cover-content .user-content .profile-credential,.user-points-categories ul li:last-child,.feed-section-users .user-section-normal > .user-area:last-child,.cat_widget_with_icon .cat-sections-icon h6,.cat_widget_icon_color .cat-sections-icon h6,.cat_with_icon .cat-sections-icon h6,.cat_icon_color .cat-sections-icon h6,.widget-wrap .widget-cats-sections .col:last-child .cat-sections,.widget-wrap .widget-cats-sections .cat-sections-follow .cat-sections,.cat-sections-follow .cat-sections,.widget-wrap .widget-cats-sections .col:last-child .cat-sections-follow,.p-category .the-category-ajax,.user-area-head .user-content > .user-inner p,.no-pagination:not(.post-articles-blog-h) > .article-post:last-child,.articles-no-pagination > *:not(.alert-message):last-child,.question-articles .article-question:last-child,.post-articles .article-post-only:last-child,.page-template-template-home .page-content.commentslist > .commentlist,.page-template-template-comments .page-content.commentslist > .commentlist,.the-title-div input[type="text"],.question-panel-pop .form-submit,#wpqa-notification .panel-pop-content > p:last-child,nav.nav .wpqa-notifications-nav ul li:last-child,.referral-invitations.user-notifications.user-profile-area > div > ul > li,.widget .result-div li,.wpqa-templates .subscriptions-section .subscribe-free.subscribe-section ul li:last-child,.wpqa-templates .subscriptions-section .subscribe-paid.subscribe-section ul li:last-child,.paid-subscribe.subscribe-section ul li:last-child,.article-question .paid-subscriptions:last-child,.panel-pop .paid-subscriptions:last-child,.wpqa-templates .paid-subscriptions:last-child,.margin_0,#section-transactions.user-notifications > div > ul li div:last-child,.payment-methods .payment-wrap-2 .payment-tabs li,.breadcrumb-right .search-form input.search-input {
+	margin-bottom: 0;
+}
+.wpqa-followers #section-followers .main-pagination,.wpqa-following #section-following .main-pagination,.buy-points-section > ul li,.wpqa-profile .post-section.user-area.user-advanced .social-ul,.question-inner .question-content .question-bottom > .commentlist {
+	margin-bottom: 30px;
+}
+.wpqa-profile .post-section.user-area.user-advanced .user-data {
+	margin-bottom: 25px;
+}
+.header-no-meta .post-img,.post-style-2 .post-img,.user-stats > ul,.user-follower > ul,.user-section-simple_follow .user_follow,.pagination-wrap.pagination-answer,.pagination-wrap.pagination-question,.pagination-wrap.no-pagination-wrap,.pagination-users.main-pagination,.search.search-results .pagination-wrap,.page-template-template-search .pagination-wrap,ul.question-link-list li,.single-question.question-no-answers .discy-ad.discy-ad-footer,#wrap .post-style-3 .post-img,.question-simple .question-favorites .small_loader.loader_2,.question-simple .question-followers .small_loader.loader_2,.category-wrap > span:first-child,.wpqa_category > ul,.wpqa-followers #section-followers .main-pagination,.wpqa-following #section-following .main-pagination,.subscriptions-section ul,.subscriptions-section .subscribe-section > ul li,.buy-points-section ul,.buy-points-section > ul li,.answer-video.question-video-loop-after iframe,.row.cats-sections.tags-sections {
+	margin-top: 0;
+}
+.user-notifications > div > a,.answers-tabs,.commentlist li.comment ul.children li.comment .comment-body,.commentlist li.comment ul.children li.discy-ad,.question-adv-comments,.related-post.related-questions,.question-not-comments #respond {
+	border-top: 1px solid #e4e6e6;
+}
+.widget_rss li:last-child,.widget_recent_entries li:last-child,.widget_recent_comments li:last-child,.widget_pages li:last-child,.widget_archive li:last-child,.widget_meta li:last-child,.widget_categories li:last-child,.widget_nav_menu li:last-child,.widget li:last-child,.widget-posts .user-notifications.user-profile-area > div > ul > li:last-child,.related-widget .user-notifications.user-profile-area > div > ul > li:last-child,.users-widget .user-section .col12:last-child .post-section.user-area,.widget-title-tabs .tabs li,.page-template-template-contact .article-post,.page-template-template-faqs .article-post,.page-template-template-categories .article-post,.page-template-template-tags .article-post,.page-template-template-users .article-post,.commentlist li.comment ul.children li.comment,.commentlist li.comment ul.children li.discy-ad,.page-sections .page-section:last-child,.widget-statistics ul li,.stats-inner-2 li,.users-widget .user-section-small .user-data ul li,.widget .social-ul li,.post-section.user-area.user-advanced,.footer .widget_nav_menu li,.no-pagination:not(.post-articles-blog-h) > .article-post:last-child,.articles-no-pagination > *:not(.alert-message):last-child,.commentlist > li.comment:last-child,.commentlist > li.comment:last-child .comment-body,.commentlist li.comment ul.children li.comment:last-child .comment-body,.commentlist li.comment ul.children li.discy-ad:last-child,.commentslist:last-child .commentlist,#section-messages .commentlist:last-child,.mobile-aside .post-search,.widget.widget-no-button .user-notifications.user-profile-area > div > ul > li:last-child,.widget.widget-no-button .user-notifications > div > ul li:last-child,.widget-posts .user-notifications.user-profile-area.widget-post-style-2.post-style-2-image > div > ul > li,#wrap .article-post.post-style-3,#wrap .main_center .article-post.post-style-3,.single-inner-content .question-bottom .commentlist,.user-points-categories ul li:last-child,.related-post.related-questions,.page-template-template-home .panel-pop-content .commentlist,.panel-pop-content .commentlist {
+	padding-bottom: 0;
+	border-bottom: none;
+}
+.header-login .nav.nav ul li a,.feed-sections > .feed-section,.wpqa-followers .the-main-inner,.wpqa-following .the-main-inner,.pagination.comments-pagination,.question-panel-pop .commentlist,.post-contact form div.post-section.post-contact-us,.footer .widget {
+	padding-bottom: 0;
+}
+.single_page_no .post-articles > *:last-child,.commentlist li.discy-ad:last-child,.question-articles .question-adv-comments > #respond,.question-articles .question-adv-comments > #respond-all #respond,.widget-post-meta li {
+	padding-bottom: 0 !important;
+	border-bottom: none !important;
+	margin-bottom: 0 !important;
+}
+/* Fonts */
+body,.section-title,textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.post-meta,.article-question .post-meta,.article-question .footer-meta li,.badge-span,.widget .user-notifications > div > ul li a,.users-widget .user-section-small .user-data ul li,.user-notifications > div > ul li span.notifications-date,.tagcloud a,.wpqa_form label,.wpqa_form .lost-password,.post-contact form p,.post-contact form .form-input,.follow-count,.progressbar-title span,.poll-num span,.social-followers,.notifications-number,.widget .widget-wrap .stats-inner li .stats-text,.breadcrumbs,.points-section ul li p,.progressbar-title,.poll-num,.badges-section ul li p,.wpqa-stripe-payment {
+	font-family: "Open Sans",Arial,sans-serif;
+}
+h1,h2,h3,h4,h5,h6,.post-title,.post-title-2,.post-title-3,.widget-posts .user-notifications > div > ul li div h3,.related-widget .user-notifications > div > ul li div h3,.widget-posts .user-notifications > div > ul li div h3 a,.related-widget .user-notifications > div > ul li div h3 a,.accordion .accordion-title,.button-sign-in,.button-sign-up,nav.nav ul li,.menu-tabs > ul > li > a,.nav_menu > ul li a,.nav_menu > div > ul li a,.nav_menu > div > div > ul li a,.question-content-text,.widget-title,.user-not-normal .user-area .user-content > .user-inner h4,.about-text,.widget li,.credits,.post-content-text,.button-default,.button-default-2,.button-default-3,a.meta-answer,.load-more a,.post-read-more,.question-read-less,.edit-link,.delete-link,.pop-footer,.post-contact form .form-input span,.pagination-wrap .no-comments,.user-follow-profile,.user-area .user-content > .user-inner p,.user-area .bio_editor,.category-description > p,.social-ul li .user_follow_3 a,.social-ul li.ban-unban-user a,.social-ul li a.block_message,.answers-tabs .section-title,.answers-tabs-inner li,.mobile-menu,.mobile-aside li a,.vote_result,.stats-value,.user-stats > ul > li > div > div span,.referral-stats > ul > li > div > div span,.cat-sections a,.commentlist li.comment .comment-body .comment-text .comment-author a,.point-div span,.ed_button.poll_results,.ed_button.poll_polls,.comment-respond > .section-title,.fileinputs span,.no-results p,.post-author,.related-post .section-title,.navigation-content a,.alert-message,.wpqa-open-click,.question-author-un,.call-action-unlogged p,.panel-image-inner p {
+	font-family: "Roboto",Arial,sans-serif;
+}
+/* Width 100% */
+table,.col12,.loader,.background-cover,.login-opacity,.cover-opacity,.panel-image-opacity,.call-action-opacity,.slider-opacity,.login-page-cover,.styled-select,.styled-select select,.widget select,.main_sidebar main.all-main-wrap,.main_full main.all-main-wrap,.main_full .the-main-inner,.main_full .hide-main-inner,.menu_left .the-main-inner,.menu_left .hide-main-inner,.header,.user-click,.notifications-click,.fixed-enabled .header,.header.fixed-nav,.comment-form .subscribe-text input[type="text"],.widget_nav_menu li.mega-menu .sub-menu li,.widget_search input,.widget_search .search-submit,.subscribe-widget form input[type="text"],.referral-form form input[type="email"],.referral-invitation input[type="text"],.post-img img,.post-img-lightbox,.post-img iframe,.user-stats > ul > li > div,.user-stats > ul > li > div > div span,.referral-stats > ul > li > div,.referral-stats > ul > li > div > div span,.user-follower > ul > li > div > a,.user-stats > ul > li > div > a,.user-section-simple_follow .user-inner,.menu-tabs > ul > li > a:before,.flexMenu-popup li,.user-notifications.user-profile-area > div,.user_follow_2,.user-follow-profile a,.search-input-form input[type="search"],.post-search input[type="search"],.article-post.article-post-single:after,.post-comments:after,.gallery-caption,.gallery-caption:before,.wpqa_captcha_normal,.wpqa_form .wpqa_captcha_p label,.comment-form .form-input:not(.form-textarea) input,.comment-form .form-input textarea,.comment-form .form-input-full,.comment-form .form-textarea,#submit.button-default,.question-panel-pop .button-default,.show-answer-form,.poll-area .wpqa_radio_p,.progressbar-percent.poll-result,.question-video iframe,.post-contact form p input,.post-contact form p textarea,.post-contact form .form-input input,.post-contact form .form-input-last,.post-contact form .form-input-last textarea,.panel-pop-content,.panel-pop > i,.wpqa_form input:not([type="checkbox"]):not([type="radio"]):not(.ed_button):not(.wpqa_captcha),.wpqa_form p textarea,.wpqa_textarea textarea,.widget_ask .button-default,.wpqa_form input[type="submit"],.wpqa_captcha_question .wpqa_captcha,.wpqa_error,.wpqa_success,.wpqa_login_social_div:before,.fakefile,.fakefile button,.fileinputs input[type="file"],.mCSB_scrollTools .mCSB_dragger,.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown,.panel-pop .wpqa_login.wpqa_form .wpqa_captcha_normal input.wpqa_captcha,.panel-pop .signup_form.wpqa_form .wpqa_captcha_normal input.wpqa_captcha,.question-full-width .question-content-first,.question-full-width .question-content-second,.header-big-search .header-search input[type="search"],.mobile-bar,.mobile-bar-search form,.slider-form form,.slider-form form input[type="text"],.slider-form form input[type="search"],.question-video-widget,.question-footer,.article-question .question-share .post-share > ul li,.comment-share.question-share .post-share > ul li,.question-list-details > ul li,.question-video iframe,.question-video-loop-100 iframe,.wpqa_category ul ul li,.wpqa-cover-fixed .wpqa-cover-inner,.question-2-columns .question-vote-image.question-share-2 .question-content-second,.question-2-columns.article-question .question-content.question-content-first.question-third-image,.question-2-columns.article-question .question-content.question-content-second.question-third-image,.user-stats > ul.user-points-categories > li,.header-no-search nav.nav,.call-action-video,.commentlist li.comment.comment-without-image .comment-body .comment-text .author,.commentlist li.comment.comment-without-image .comment-body .comment-text .text {
+	width: 100%;
+}
+/* Cursor */
+.button-default,.button-default-2,.button-default-3,input[type="submit"]:not(.button-default):not(.button-primary),.submit-1,.widget_search .search-submit,.styled-select select,.header-search button,.search-click,.user-click,.notifications-click,.mobile-menu,.mobile-arrows,.mobile-bar-search form i,.post-share,.owl-controls .owl-buttons > div,span.verified_user,.ask-box-question,.search-form .button-search,.wpqa_captcha_img,.question-share,.question-list-details,.poll-area .wpqa_radio_p label,.wpqa_poll_image img,.accordion .accordion-title,.panel-pop > i,.wpqa_form label,.wpqa_form .rememberme,.wpqa-remove-image,.wpqa_checkbox input[type="checkbox"],.wpqa_radio input[type="radio"],.wpqa_checkbox_span,.fakefile button,.fileinputs input[type="file"],.del-item-li,.move-poll-li,.taglist .tag a.delete,.taglist .tag a.delete:before,.ui-datepicker-prev,.ui-datepicker-next,.go-up,.ask-button,.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown,.mCSB_scrollTools .mCSB_dragger {
+	cursor: pointer;
+}
+.article-question .post-share,.comment-share .post-share,.question-list-details > ul {
+	cursor: default;
+}
+/* Border radius 50% */
+.loader_html,.loader_2,.loader_3,.author-image-span,.author-image img,.user-area .social-ul li a,.user-image img,.user-follower > ul > li > div img,.follow_email,.send_message_icon,.user_follow,.user-notifications > div > ul li .span-icon,.subscribe-widget form button,.referral-form form button,.social-ul li a,.anonymously_span img,span.verified_user,.ask-user-question img,.ask-box-question img,.get-results,.get-results img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
+/* Border radius 20px */
+.subscribe-widget form input[type="text"],.referral-form form input[type="email"],.referral-invitation input[type="text"],.social-ul li .user_follow_3 a,.social-ul li.ban-unban-user a,.social-ul li a.block_message,.border-radius-20 .button-default,.border-radius-20 .button-default-2,.border-radius-20 .button-default-3,.border-radius-20 .go-up,.border-radius-20 .ask-button,.border-radius-20 .load-more a,.border-radius-20 input[type="submit"]:not(.button-default):not(.button-primary),.border-radius-20 .submit-1,.border-radius-20 .widget_search .search-submit,.border-radius-20 .pagination .page-numbers,.border-radius-20 .post-pagination > *,.border-radius-20 .page-navigation-before a,.border-radius-20 .post-img .owl-controls .owl-buttons > div,.border-radius-20 .slider-wrap .owl-controls .owl-buttons > div,.border-radius-20 .slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.border-radius-20 .fakefile button,.border-radius-20 .fileinputs span,.border-radius-20 .profile-setting,.border-radius-20 a.meta-answer,.border-radius-20 .question-stats span,.border-radius-20 .question-navigation a,.border-radius-20 .user-follow-profile a {
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+/* Border radius 2px */
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.button-default,.button-default-2,.button-default-3,.user-login-click > i,.notifications-number,.go-up,.ask-button,.load-more a,.post-share ul li a,.tagcloud a,.styled-select,.widget select,.styled-select::before,input[type="submit"]:not(.button-default):not(.button-primary),.submit-1,.widget_search .search-submit,.pagination .page-numbers,.post-pagination > *,.page-navigation-before a,.post-img-lightbox i,.post-img .owl-controls .owl-buttons > div,.slider-wrap .owl-controls .owl-buttons > div,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.alert-message,.accordion .accordion-title i,.panel-pop-content,.pop-border-radius,.wpqa_error,.wpqa_success,.wpqa_checkbox input[type="checkbox"],.wpqa_radio input[type="radio"],.page-section .post-title-2 > i,.fakefile button,.fileinputs span,.profile-setting,.points-section ul .point-section,.tag-sections,.cat-sections,.badges-section ul li,nav.nav ul li a,.question-poll,.footer-meta li,a.meta-answer,.question-footer,.question-stats span,.question-navigation a,.poll-area,.poll_1 > h3 i,.poll_2 > h3 i,.del-item-li,.move-poll-li,.user-stats > ul > li > div,.referral-stats > ul > li > div,.user-follower > ul > li h4 i,.user-follower > ul > li > div,.user-not-normal .user-area,.author-image-pop,.author-image-pop-2,.widget-statistics li a,.widget-statistics ul li i,.flexMenu-popup,.stats-inner li,.post-contact form div.wpcf7-response-output,.post-contact form span.wpcf7-not-valid-tip,.user-columns-data,.user-follow-profile a,.mobile-menu-click,.nav_menu.nav_menu_2 > ul,.nav_menu.nav_menu_2 > div > ul,.nav_menu.nav_menu_3 > ul > li,.nav_menu.nav_menu_3 > div > ul > li,.widget-post-image,div.search-results,.wpqa-cover-buttons,.wpqa-delete-image > span,.cover-cat-span,.cat-section-icon,.cat-sections-follow,.cat-follow-button,.follow-cat-button.button-default-4,.feed-title i,.referral-cover-background,.cover-opacity,.wpqa-stripe-payment,#wpqa-share .referral-invitation input[type="text"],.cover_loader,.widget-post-image.group_avatar {
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+/* Border radius 1px */
+.badge-span {
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+/* Border radius 0 */
+.pop-border-radius .panel-pop-content,.border-radius-0 .button-default,.border-radius-0 .button-default-2,.border-radius-0 .button-default-3,.border-radius-0 .go-up,.border-radius-0 .ask-button,.border-radius-0 .load-more a,.border-radius-0 input[type="submit"]:not(.button-default):not(.button-primary),.border-radius-0 .submit-1,.border-radius-0 .widget_search .search-submit,.border-radius-0 .pagination .page-numbers,.border-radius-0 .post-pagination > *,.border-radius-0 .page-navigation-before a,.border-radius-0 .post-img .owl-controls .owl-buttons > div,.border-radius-0 .slider-wrap .owl-controls .owl-buttons > div,.border-radius-0 .slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.border-radius-0 .fakefile button,.border-radius-0 .fileinputs span,.border-radius-0 .profile-setting,.border-radius-0 a.meta-answer,.border-radius-0 .question-stats span,.border-radius-0 .question-navigation a,.border-radius-0 .user-follow-profile a,.cat-sections-follow .cat-sections {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+/* Border color #e1e3e3 */
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.fakefile button,.box-question,.styled-select,.mobile-bar-content,.tagcloud a,.widget-statistics li a,.stats-inner li,.widget .stats-inner li:last-child,.widget-title-tabs .tabs li a,.answers-tabs-inner li a,.user-stats > ul > li > div,.referral-stats > ul > li > div,.user-follower > ul > li > div,.user-not-normal .user-area,.comment-with-title-3 .comment-text,.question-navigation a,.poll-area,.accordion .accordion-content,.points-section ul .point-section,.badges-section ul .badge-section,.tag-sections,.cat-sections,.wpqa_checkbox input[type="checkbox"],.wpqa_radio input[type="radio"],.profile-setting,.cat-sections-follow,.cat-follow-button,.profile_items > li,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.wpqa-stripe-payment,.payment-wrap-2,.payment-wrap-2 .payment-tabs a,.footer-light input[type="text"],.footer-light input[type="password"],.footer-light input[type="datetime"],.footer-light input[type="datetime-local"],.footer-light input[type="date"],.footer-light input[type="month"],.footer-light input[type="time"],.footer-light input[type="week"],.footer-light input[type="number"],.footer-light input[type="email"],.footer-light input[type="url"],.footer-light input[type="search"],.footer-light input[type="tel"],.footer-light input[type="color"],.footer-light .fakefile button,.footer-light .styled-select,.footer.footer-light .subscribe-widget form input[type="text"],#wpqa-share .referral-invitation input[type="text"] {
+	border: 1px solid #e1e3e3;
+}
+.referral-invitations div ul li:first-child,.question-bottom,.accordion .accordion-inner,.blog-post-footer,.footer-light {
+	border-top: 1px solid #e1e3e3;
+}
+.widget-title-tabs .tabs li:last-child a,.answers-tabs-inner li:last-child a,.profile-setting a,.badge-div,.payment-wrap-2 .payment-tabs li:first-child:last-child a {
+	border-right: 1px solid #e1e3e3;
+}
+.user-login-click > ul,.user-notifications > div,div.search-results,.header-light .header,nav.nav .wpqa-notifications-nav ul,.call-action-unlogged,.widget-posts .user-notifications.user-profile-area > div > ul > li,.related-widget .user-notifications.user-profile-area > div > ul > li,.users-widget .post-section.user-area,.widget-title-tabs,.user-stats,.user-follower,.user-points-categories ul li,.comment-with-title-1 .comment-question-title,.answers-tabs,.user-notifications.user-profile-area > div > ul > li,.question-panel-pop.panel-pop .panel-pop-content .page-content.commentslist,.tag-counter,.blog-post-header,.cat-sections-follow .cat-sections,.payment-wrap-2 .payment-tabs,.breadcrumbs.breadcrumbs_2 {
+	border-bottom: 1px solid #e1e3e3;
+}
+.profile-setting a:last-child {
+	border-left: 1px solid #e1e3e3;
+}
+/* Social Background Color */
+.post-share ul .share-facebook a,.user-area .social-ul li.social-facebook a,.widget-statistics .social-facebook a i {
+	background-color: #5d82d1;
+}
+.post-share ul .share-twitter a,.user-area .social-ul li.social-twitter a,.widget-statistics .social-twitter a i {
+	background-color: #40bff5;
+}
+.post-share ul .share-whatsapp a,.user-area .social-ul li.social-whatsapp a,.widget-statistics .social-whatsapp a i {
+	background-color: #43d854;
+}
+.post-share ul .share-linkedin a,.user-area .social-ul li.social-linkedin a,.widget-statistics .social-linkedin a i {
+	background-color: #238cc8;
+}
+.user-area .social-ul li.social-pinterest a,.widget-statistics .social-pinterest a i {
+	background-color: #e13138;
+}
+.user-area .social-ul li.social-instagram a,.widget-statistics .social-instagram a i {
+	background-color: #548bb6;
+}
+.user-area .social-ul li.social-youtube a,.widget-statistics .social-youtube a i {
+	background-color: #ef4e41;
+}
+.user-area .social-ul li.social-vimeo a,.widget-statistics .social-vimeo a i {
+	background-color: #4EBBFF;
+}
+.user-area .social-ul li.social-dribbble a,.widget-statistics .social-dribbble a i {
+	background-color: #f7659c;
+}
+.user-area .social-ul li.social-soundcloud a,.widget-statistics .social-soundcloud a i {
+	background-color: #ff7e30;
+}
+.user-area .social-ul li.social-behance a,.widget-statistics .social-behance a i {
+	background-color: #1879fd;
+}
+.user-area .social-ul li.social-envato a,.widget-statistics .social-envato a i {
+	background-color: #82b440;
+}
+.user-area .social-ul li.social-github a,.widget-statistics .social-github a i {
+	background-color: #3f91cb;
+}
+/* Background Color #F9F9F9 */
+table thead th,.user-follower > ul > li > div,.poll-area,.accordion .accordion-content,.profile-setting a,.widget.tabs-wrap.widget-tabs,.widget-title-tabs .tabs li a,.answers-tabs-inner li a,.answers-tabs,.sidebar .widget.widget-no-divider,.nav_menu .widget.widget-no-divider,.mobile-bar-content,.payment-wrap-2 .payment-tabs {
+	background-color: #F9F9F9;
+}
+/* Background Color #FFF */
+mark.dark,.gallery-caption,.wpqa_checkbox input[type="checkbox"],.wpqa_radio input[type="radio"],textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.user-login-click > ul,.user-notifications > div,.post-img .owl-controls .owl-buttons > div,.slider-wrap .owl-controls .owl-buttons > div,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.panel-pop-content,.wpqa_login_social_div span,.fakefile button,.profile-setting a.active-tab,.footer-meta li,.user-stats > ul > li > div,.referral-stats > ul > li > div,.follow_email,.send_message_icon,.user_follow,.author-image-pop,.author-image-pop-2,.flexMenu-popup,.widget-title-tabs .tabs li.current a,.answers-tabs-inner li.active-tab a,.widget-title-tabs .tabs li.current:before,.answers-tabs-inner li.active-tab:before,.widget.tabs-wrap.widget-tabs .widget-wrap,.widget-no-divider .stats-inner li,.search-form .button-search,table tr:nth-child(even),table tr:nth-child(odd),.the-main-inner,.hide-main-inner,.inner-sidebar,.mobile-aside.light-mobile-menu,.pagination .page-numbers,.post-pagination > *,.hide-sidebar-inner,div#ui-datepicker-div,.footer.footer-light,.header-light .header,.header-colored .user-login-click > i,.header-simple .header .button-sign-up:hover,.header-simple.header-colored .header .button-sign-up:hover,.nav_menu.nav_menu_2 > ul,.nav_menu.nav_menu_2 > div > ul,.nav_menu.nav_menu_3 > ul > li,.nav_menu.nav_menu_3 > div > ul > li,.call-action-unlogged,.article-question .question-share .post-share > ul,.comment-share.question-share .post-share > ul,.blog-post-area,div.nav_menu,div.nav_menu_sidebar,.question-list-details > ul,.button-default.slider-button-style_2,.styled-select,div.search-results,.search_loader,.wpqa-cover-buttons,.profile_items > li,nav.nav .wpqa-notifications-nav ul,nav.nav .wpqa-notifications-nav:hover ul,.wpqa-stripe-payment,.payment-wrap-2 .payment-tabs a.payment-style-activate,.payment-wrap-2 .payment-tabs a.payment-style-activate:before,.breadcrumbs-light,.breadcrumbs-dark .question-navigation > a,.breadcrumbs-colored .question-navigation > a,.footer-light input[type="text"],.footer-light input[type="password"],.footer-light input[type="datetime"],.footer-light input[type="datetime-local"],.footer-light input[type="date"],.footer-light input[type="month"],.footer-light input[type="time"],.footer-light input[type="week"],.footer-light input[type="number"],.footer-light input[type="email"],.footer-light input[type="url"],.footer-light input[type="search"],.footer-light input[type="tel"],.footer-light input[type="color"],.footer-light .fakefile button,.footer-light .styled-select,.footer.footer-light .subscribe-widget form input[type="text"],#wpqa-share .referral-invitation input[type="text"],.cover_loader {
+	background-color: #FFF;
+}
+/* Background Color #282b32 */
+.footer .widget-title-tabs .tabs li a,.social-ul li a,.footer-light .social-ul li a:hover {
+	background-color: #282b32;
+}
+/* Background Color #F00 */
+.question-stats span.question-closed,.del-item-li {
+	background-color: #F00;
+}
+/* Background Color #26333b */
+.accordion .accordion-title i,.page-section .post-title-2 > i,.poll_1 > h3 i,.poll_2 > h3 i,.user-follower > ul > li h4 i,.follow_email:hover,.send_message_icon:hover,.user_follow:hover,.menu-tabs > ul > li > a:hover:before,.menu-tabs > ul > li.active-tab > a:before,.menu-tabs .flexMenu-viewMore.active-menu > a:before,.widget-statistics ul li i,li.stats-comments:before {
+	background-color: #26333b;
+}
+/* Background Color #272930 */
+.header,nav.nav li:hover ul,.widget_calendar #wp-calendar thead,.widget_calendar #wp-calendar thead th,.footer .tagcloud a,.footer .styled-select::before,.go-up:hover,.ask-button:hover,.user-area .social-ul li a:hover,.pagination .page-numbers:hover,.post-pagination > *:hover,.post-img .owl-controls .owl-buttons > div:hover,.fileinputs span,a.meta-answer,.button-default-3,.del-item-li:hover,.move-poll-li:hover,.mobile-aside.dark-mobile-menu,.ui-datepicker-title,.ui-datepicker-today,.login-opacity,nav.nav li .flexMenu-popup,.header-colored a.button-sign-in:hover,.header-colored a.button-sign-up,.header-simple-header-light .button-default.wpqa-question,.header-simple.header-colored .button-default.wpqa-question,.header-simple-header-light .button-default.simple-header-button,.header-simple.header-colored .button-default.simple-header-button,.header-simple.header-light .header .button-sign-up:hover,.header-simple.header-colored .header .button-sign-in:hover,.header-simple.header-colored .header .button-sign-up,.call-action-unlogged.call-action-dark,.slider-inner .button-default.slider-button-style_3,.slider-form form input[type="submit"],.wpqa-cover-background,.cover-opacity,.panel-image-content .button-default,.breadcrumbs.breadcrumbs-dark,.breadcrumbs-colored .question-navigation > a:hover {
+	background-color: #272930;
+}
+/* Background Color #7c7f85 */
+.button-default:hover,.button-default-2,.load-more a,.styled-select::before,.user-login-click > i,.page-navigation-before a,.progressbar-percent.poll-result,.user-follow-profile .user_follow_yes a:hover {
+	background-color: #7c7f85;
+}
+/* Background Color #f05555 */
+a.button-sign-in:hover,a.button-sign-up:hover,.notifications-number,.user-follow-profile a:hover,.user-follow-profile .user_follow_yes a,li.stats-answers:before,.header-simple .header .button-sign-in:hover,.ask-button {
+	background-color: #f05555;
+}
+/* Background Color #1a1c21 */
+.footer,.user-click-open.user-login-click > i,.user-login-click-2 > ul,.user-notifications-2 > div,.post-share ul li a:hover,.widget_calendar tbody a:hover,.widget_calendar tbody a:focus,nav.nav ul li a:hover,nav.nav ul li:hover > a,.footer .widget-title-tabs .tabs li.current a,nav.nav ul li.current_page_item a,nav.nav ul li.current-menu-item a,.footer .widget-no-divider .stats-inner li,.footer .widget.tabs-wrap.widget-tabs,.footer .widget.tabs-wrap.widget-tabs .widget-wrap,.mobile-menu-click:hover,.footer .wpqa_login_social_div span {
+	background-color: #1a1c21;
+}
+/* Color #F00 */
+.wpqa_error,.taglist .tag a.delete:before,.wpqa_form .required,.delete-account a {
+	color: #F00;
+}
+/* Color #464e5b */
+input[type="submit"]:not(.button-default):not(.button-primary),.submit-1,.widget_search .search-submit,.nav_menu > ul ul li a:hover,.nav_menu > div > ul ul li a:hover,.nav_menu > div > div > ul ul li a:hover,.commentlist ul.comment-reply li,.commentlist ul.comment-reply li a,.question-link-list li,.question-link-list li a,.post-img .owl-controls .owl-buttons > div,.slider-wrap .owl-controls .owl-buttons > div,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.category-description > a:hover,.accordion .accordion-title a,.points-section ul li p,.badges-section ul li p,.poll-num,.taglist .tag a.delete:hover:before,.follow_email,.send_message_icon,.user_follow,.tag-section span {
+	color: #464e5b;
+}
+/* Color #677075 */
+textarea,input[type="text"],input[type="password"],input[type="datetime"],input[type="datetime-local"],input[type="date"],input[type="month"],input[type="time"],input[type="week"],input[type="number"],input[type="email"],input[type="url"],input[type="search"],input[type="tel"],input[type="color"],.styled-select select,.widget select,.user-notifications > div > ul li i,.post-contact form .form-input i,.fakefile button,.footer-meta li i,.vote_result,.question-vote li a,ul.question-vote.answer-vote li a,.widget-posts .user-notifications > div > ul li .post-meta-comment i,.related-widget .user-notifications > div > ul li .post-meta-comment i,.user-columns-data a i,.ask-box-question,.referral-form form i.icon-mail,.referral-invitation a,.wpqa-stripe-payment {
+	color: #677075;
+}
+/* Color #272930 */
+.post-articles h1,.post-articles h2,.post-articles h3,.post-articles h4,.post-articles h5,.post-articles h6,.user-notifications > div > ul li span,.post-title,.no-results > h2,.user-area .user-content > .user-inner h4 > a:hover,.commentlist li.comment .comment-body .comment-text .comment-author a:hover,.commentlist li.comment .comment-body .comment-text .author .comment-date:hover,.commentlist li .comment-text a:hover,.post-content-text a:hover,.point-div span,.question-vote li a:hover,ul.question-vote.answer-vote li a:hover,.user-stats > ul > li > div > div span,.referral-stats > ul > li > div > div span,.user-follower > ul > li > div span span,.user-notifications div ul li span.question-title a,.widget-posts .user-notifications > div > ul li div h3 a,.related-widget .user-notifications > div > ul li div h3 a,.stats-value,.mobile-arrows,.wpqa-open-click.color:hover,.header-light .user-login div,.header-light .user-notifications-seen > i,.header-light nav.nav ul li a,.header-colored .user-notifications-seen > i,.header-light .sign-in-lock,.header-light .mobile-menu,.call-action-unlogged h3,.wpqa-login-already strong,.wpqa-login-already a:hover,.header-light nav.nav ul li.flexMenu-viewMore > a:hover,.header-light nav.nav ul li.flexMenu-viewMore:hover > a,.profile_items > li label,.wpqa-templates .pop-footer.pop-footer-subscriptions a:hover,.pop-footer.pop-footer-comments,.pop-footer.pop-footer-comments a:hover,.article-question .pop-footer.pop-footer-subscriptions a:hover,.breadcrumbs-colored a:hover,.breadcrumbs.breadcrumbs-colored .current,.footer.footer-light input[type="text"],.footer.footer-light input[type="password"],.footer.footer-light input[type="datetime"],.footer.footer-light input[type="datetime-local"],.footer.footer-light input[type="date"],.footer.footer-light input[type="month"],.footer.footer-light input[type="time"],.footer.footer-light input[type="week"],.footer.footer-light input[type="number"],.footer.footer-light input[type="email"],.footer.footer-light input[type="url"],.footer.footer-light input[type="search"],.footer.footer-light input[type="tel"],.footer.footer-light input[type="color"],.footer.footer-light .fakefile button,.footer.footer-light .styled-select,.footer.footer-light .subscribe-widget form input[type="text"],#wpqa-share .referral-cover-inner,#wpqa-share .referral-invitation input[type="text"],nav.nav .wpqa-notifications-nav ul li a:hover,.all_signle_post_content,.single-post .post-content-text,.single-question .comment-text .text {
+	color: #272930;
+}
+.button-default.slider-button-style_2 {
+	color: #272930 !important;
+}
+/* Color #656c77 */
+.user-notifications > div > a,.user-notifications > div > ul li,.user-follower > ul > li > div span {
+	color: #656c77;
+}
+/* Color #26333b */
+.nav_menu > ul li a,.nav_menu > div > ul li a,.nav_menu > div > div > ul li a,.user-login-click > ul li a,.user-notifications > div > ul li a:hover,.breadcrumbs,.post-meta a:hover,.post-author:hover,.widget-title,.section-title,.section-title a,.post-title-2,h1.post-title-2,.post-title-3,.no-results > h3,.profile-setting a,a.question-poll:hover,.poll_1 > h3,.poll_2 > h3,.taglist .tag span,.user-follower > ul > li h4,.menu-tabs > ul > li > a:hover,.menu-tabs > ul > li.active-tab > a,.menu-tabs .flexMenu-viewMore > a:hover,.menu-tabs .flexMenu-viewMore:hover > a,.menu-tabs .flexMenu-viewMore a:hover,.menu-tabs .flexMenu-viewMore .active-tab a,.menu-tabs .flexMenu-viewMore.active-menu > a,.stats-comments .stats-text,.widget-title-tabs .tabs li.current a,.answers-tabs-inner li.active-tab a,.question-author-un,#footer_menu li a:hover,.footer.footer-light .widget-title,.footer-light .bottom-footer a:hover,.user-points-categories h5,#wpqa-badge h3,#wpqa-notification h3,.header-light .logo-name,.header-colored .logo-name:hover,.cat-section-with_icon_4 .cat-section-icon,.feed-title h4,nav.nav .wpqa-notifications-nav ul li li a:hover,nav.nav ul li.current_page_item.wpqa-notifications-nav li a,nav.nav ul li.current-menu-item.wpqa-notifications-nav li a {
+	color: #26333b;
+}
+/* Color #7c7f85 */
+.header-search input,.user-notifications > i,.user-login-click-2 > ul li a,.nav_menu > ul ul li a,.nav_menu > div > ul ul li a,.nav_menu > div > div > ul ul li a,.user-notifications > div > ul li span.notifications-date,.breadcrumbs .current,.post-meta,.footer a,.footer .styled-select select,.commentlist li.comment .comment-body .comment-text .author .comment-date,.wpqa_form label,.profile-setting a.active-tab,.point-div,.footer-meta li,.footer-meta li a,.question-navigation a,.progressbar-title,.user-stats > ul > li > div > div,.referral-stats > ul > li > div > div,.user-data ul li,.user-data ul li a,.menu-tabs > ul > li > a,.menu-tabs .flexMenu-viewMore a,.widget-posts .user-notifications > div > ul li a,.related-widget .user-notifications > div > ul li a,.widget-title-tabs .tabs li a,.answers-tabs-inner li a,.social-ul li a,.search-form .icon-search,.user-columns-data a,.tag-counter,.tagcloud a,.pagination .page-numbers,.post-pagination > *,#footer_menu li a,.header-light .user-login span,.header-light .header-search button i,.header-colored .user-login-click > i,.article-question .question-share .post-share > ul li a,.comment-share.question-share .post-share > ul li a,.widget-post-style-2 .widget-post-meta li,.widget-post-style-2 .widget-post-meta li span,.widget-post-style-2 .widget-post-meta li a,.slider-form form i,.slider-form form input[type="text"],.slider-form form input[type="search"],.wpqa-cover-buttons,.wpqa-cover-right .question-list-details > i,.cat-follow-button,.follow-cat-button.button-default-4,.cat_follow_done .button-default-4.follow-cat-button:hover,.breadcrumbs-dark .question-navigation > a,.breadcrumbs-colored .question-navigation > a {
+	color: #7c7f85;
+}
+/* Color #999 */
+.wpqa_form p i,.the-title-div i,.wpqa_form .wpqa_category i,.wpqa_form .fileinputs i,.wpqa_textarea_p i,.taglist .input:before,.box-question i,.footer.footer-light .wpqa_form p i {
+	color: #999;
+}
+/* Color #707885 */
+.user-login span,.widget-posts .user-notifications.widget-post-style-2 > div > ul li div p,.comment-edited {
+	color: #707885;
+}
+/* Color #FFF */
+.white,.go-up,.ask-button,.ask-button:hover,nav.nav ul li a,.header-search button i,.user-login div,.user-login-click > i,.notifications-number,.user-notifications-seen > i,.user-notifications-2 > div > ul li span,.user-notifications-2 > div > ul li a:hover,.post-share ul li a,.footer .widget-title,.widget_calendar caption,.widget_calendar #wp-calendar thead,.widget_calendar #wp-calendar thead,.widget_calendar #wp-calendar thead th,.tagcloud a:hover,.footer .tagcloud a,.styled-select::before,input[type="submit"]:not(.button-default):not(.button-primary):hover,.submit-1:hover,.widget_search .search-submit:hover,.footer .widget_search .search-submit,.logo-name,.badge-span,.pagination .page-numbers.current,.pagination .page-numbers:hover,.post-pagination > *:hover,.post-pagination > span,.post-img-lightbox:hover i,.post-img .owl-controls .owl-buttons > div:hover,.slider-wrap .owl-controls .owl-buttons > div:hover,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div:hover,.accordion .accordion-title i,.panel-pop > i,.pop-header,.pop-footer,.pop-footer a:hover,.page-section .post-title-2 > i,.fileinputs span,nav.nav ul li a:hover,nav.nav ul li:hover > a,.question-stats span,.question-navigation a:hover,.poll_1 > h3 i,.poll_2 > h3 i,.bottom-footer a:hover,li.li-follow-question a,li.li-follow-question a i,.user-follower > ul > li h4 i,.follow_email:hover a,.send_message_icon:hover a,.user_follow:hover a,.user_follow_yes a,.widget-statistics ul li i,.footer .user-area .user-content > .user-inner h4 > a:hover,.footer .stats-value,.footer .stats-comments .stats-text,.footer .related-widget .user-notifications > div > ul li div h3 a,.footer .widget-posts .user-notifications > div > ul li div h3 a,.footer .user-notifications div ul li span.question-title a,.footer .user-notifications > div > ul li a:hover,.footer .widget_search input,.footer .subscribe-widget form input[type="text"],.referral-invitation input[type="text"],.footer textarea,.footer input[type="text"],.footer input[type="password"],.footer input[type="datetime"],.footer input[type="datetime-local"],.footer input[type="date"],.footer input[type="month"],.footer input[type="time"],.footer input[type="week"],.footer input[type="number"],.footer input[type="email"],.footer input[type="url"],.footer input[type="search"],.footer input[type="tel"],.footer input[type="color"],.footer .wpqa_form p i,.footer .the-title-div i,.footer .wpqa_form .wpqa_category i,.footer .taglist .input:before,.footer .wpqa_form .fileinputs i,.footer .wpqa_textarea_p i,.footer .wpqa_checkbox input[type="checkbox"]:checked::before,.footer .wpqa_radio input[type="radio"]:checked::before,.footer .widget-title-tabs .tabs li.current a,.social-ul li a:hover,nav.nav ul li.current_page_item a,nav.nav ul li.current-menu-item a,.footer .about-text a:hover,.mobile-menu,.dark-mobile-menu.mobile-aside li a,.dark-mobile-menu .mobile-arrows,.dark-mobile-menu .mobile-aside-close,.ui-datepicker-title,.footer-login,.footer-login a,.login-text-col h2,.login-text-col h2 a,.login-text-col p,.login-text-col p a,.sign-in-lock,.tipsy,.question-sticky-ribbon div,.header-colored .user-notifications > i,.header-colored .user-click-open.user-login-click > i,.header-colored .header-search input[type="search"],.footer-light .social-ul li a,.call-action-dark.call-action-unlogged h3,.call-action-colored.call-action-unlogged h3,.header-light nav.nav ul > li ul li a,.slider-colmun .slider-colmun-h,.slider-colmun p,.slider-inner .pop-footer a,.button-default.slider-button-style_2:hover,.slider-inner .button-default.slider-button-style_3:hover,.slider-form form input[type="submit"],.header-colored nav.nav ul li.flexMenu-viewMore > a:hover,.header-colored nav.nav ul li.flexMenu-viewMore:hover > a,.wpqa-cover-content .user-area .user-content > .user-inner h4 > a,.wpqa-cover-content .user-content .profile-credential,.panel-image-inner h3,.panel-image-inner p,span.verified_user,.wpqa-cat-cover .post-share > span,.wpqa-cover-content .cat-cover-left h1,.wpqa-cover-content .cat-cover-left h2,.wpqa-cover-content .cat-cover-left p,.cover-cat-span,.cat-section-icon,.feed-title i,.cat-section-cover,.referral-cover-inner,.pop-login-subscriptions p,.breadcrumbs-dark h1,.breadcrumbs-dark a,.breadcrumbs-dark .crumbs > span,.breadcrumbs-colored h1,.breadcrumbs-colored a,.breadcrumbs-colored .crumbs > span {
+	color: #FFF;
+}
+.button-default,.button-default-2,.button-default-3,.load-more a,.widget_calendar tbody a,.user-area .social-ul li a,.page-navigation-before a,a.meta-answer,.del-item-li i,.move-poll-li i,.user-follow-profile a,.ui-datepicker-header a,.ui-datepicker-today a,.ui-datepicker-current-day a,.header-simple .header .button-sign-in:hover,.header-simple.header-light .header .button-sign-up:hover,.header-simple.header-colored .header .button-sign-in,.button-default.slider-button-style_2:hover,.cat-section-cover a {
+	color: #FFF !important;
+}
+/* Animation & Keyframes */
+nav.nav ul li a,.user-area .social-ul li a,.post-share ul li a,.author-image-span,.load-more a,.button-default,.button-default-2,.button-default-3,.styled-select,input[type="submit"]:not(.button-default):not(.button-primary),.submit-1,.widget_search .search-submit,.styled-select select,.widget select,.page-navigation-before a,.post-img .owl-controls .owl-buttons > div:hover,.slider-wrap .owl-controls .owl-buttons > div:hover,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div:hover,.fileinputs span,a.question-poll,a.meta-answer,.taglist .tag a.delete:before,.del-item-li,.move-poll-li,.follow_email,.send_message_icon,.user_follow,.menu-tabs > ul > li > a:before,.menu-tabs .flexMenu-viewMore > a:before,.menu-tabs .flexMenu-viewMore a,.widget-statistics ul li i,.widget-statistics .social-followers,.widget-statistics .social-text,.social-ul li a,.tagcloud a,.user-follow-profile a,.show-answer-form,.mobile-menu-click {
+	-moz-transition: border .20s linear,color .20s linear,background-color .20s linear;
+	-webkit-transition: border .20s linear,color .20s linear,background-color .20s linear;
+	-o-transition: border .20s linear,color .20s linear,background-color .20s linear;
+	transition: border .20s linear,color .20s linear,background-color .20s linear;
+}
+.fa-spin,.loader_2 {
+	-webkit-animation: fa-spin 2s infinite linear;
+	animation: fa-spin 2s infinite linear;
+}
+@-webkit-keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+@keyframes fa-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(359deg);
+		transform: rotate(359deg);
+	}
+}
+/* Opacity */
+.fileinputs input[type="file"],.article-post-only .post-share ul li,.post-img-lightbox,.post-img-lightbox i,.post-img .owl-controls .owl-buttons > div,.slider-wrap .owl-controls .owl-buttons > div,.slider-feed-wrap .slider-owl .owl-controls .owl-buttons > div,.author-image-pop,.author-image-pop-2,.gallery-caption,.article-question .question-share .post-share > ul,.comment-share.question-share .post-share > ul,.question-list-details > ul {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+}
+.mobile-aside-close:hover,.mobile-aside li ul,.mobile-aside li .menu-sub-content,.header.fixed-nav,.article-post-only .post-share:hover li,.post-img:hover .post-img-lightbox,.post-img:hover .post-img-lightbox i,.post-img:hover .owl-controls .owl-buttons > div,.slider-wrap:hover .owl-controls .owl-buttons > div,.slider-feed-wrap:hover .slider-owl .owl-controls .owl-buttons > div,.author-image:hover .author-image-pop,.author-image:hover .author-image-pop-2,.gallery-item:hover .gallery-caption,.article-question .question-share:hover .post-share > ul,.comment-share.question-share:hover .post-share > ul,.question-list-details:hover > ul {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+/* 29 - Custom scrollbar */
+.mCustomScrollbar {
+	-ms-touch-action: pinch-zoom;
+	touch-action: pinch-zoom;
+}
+.mCustomScrollbar.mCS_no_scrollbar,.mCustomScrollbar.mCS_touch_action {
+	-ms-touch-action: auto;
+	touch-action: auto;
+}
+.mCustomScrollBox {
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	max-width: 100%;
+	outline: none;
+	direction: ltr;
+}
+.mCSB_container {
+	overflow: hidden;
+	width: auto;
+	height: auto;
+}
+.mCSB_scrollTools {
+	position: absolute;
+	width: 16px;
+	height: auto;
+	right: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+.mCSB_outside + .mCSB_scrollTools {
+	left: -26px;
+}
+.mCS-dir-rtl > .mCSB_inside > .mCSB_scrollTools,.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools {
+	left: auto;
+	right: 0;
+}
+.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools {
+	right: -26px;
+}
+.mCSB_scrollTools .mCSB_draggerContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: auto;
+}
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+	margin: 20px 0;
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+	width: 2px;
+	height: 100%;
+	margin: 0 auto;
+}
+.mCSB_scrollTools .mCSB_dragger {
+	height: 30px;
+	z-index: 1;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	position: relative;
+	width: 4px;
+	height: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar,.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar {
+	width: 12px;
+}
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail,.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail {
+	width: 8px;
+}
+.mCSB_scrollTools .mCSB_buttonUp,.mCSB_scrollTools .mCSB_buttonDown {
+	display: block;
+	position: absolute;
+	height: 20px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.mCSB_scrollTools .mCSB_buttonDown {
+	bottom: 0;
+}
+.mCSB_scrollTools,
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight {
+	-webkit-transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-moz-transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-o-transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	transition: opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
+.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail,
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar,
+.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail {
+	-webkit-transition: width 0.2s ease-out 0.2s, height 0.2s ease-out 0.2s, margin-left 0.2s ease-out 0.2s, margin-right 0.2s ease-out 0.2s, margin-top 0.2s ease-out 0.2s, margin-bottom 0.2s ease-out 0.2s, opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-moz-transition: width 0.2s ease-out 0.2s, height 0.2s ease-out 0.2s, margin-left 0.2s ease-out 0.2s, margin-right 0.2s ease-out 0.2s, margin-top 0.2s ease-out 0.2s, margin-bottom 0.2s ease-out 0.2s, opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	-o-transition: width 0.2s ease-out 0.2s, height 0.2s ease-out 0.2s, margin-left 0.2s ease-out 0.2s, margin-right 0.2s ease-out 0.2s, margin-top 0.2s ease-out 0.2s, margin-bottom 0.2s ease-out 0.2s, opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+	transition: width 0.2s ease-out 0.2s, height 0.2s ease-out 0.2s, margin-left 0.2s ease-out 0.2s, margin-right 0.2s ease-out 0.2s, margin-top 0.2s ease-out 0.2s, margin-bottom 0.2s ease-out 0.2s, opacity 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+/* light */
+.mCSB_scrollTools {
+	opacity: 0.75;
+	filter: "alpha(opacity=75)";
+	-ms-filter: "alpha(opacity=75)";
+}
+.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools,.mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools {
+	opacity: 0;
+	filter: "alpha(opacity=0)";
+	-ms-filter: "alpha(opacity=0)";
+}
+.mCustomScrollbar > .mCustomScrollBox > .mCSB_scrollTools.mCSB_scrollTools_onDrag,
+.mCustomScrollbar > .mCustomScrollBox ~ .mCSB_scrollTools.mCSB_scrollTools_onDrag,
+.mCustomScrollBox:hover > .mCSB_scrollTools,
+.mCustomScrollBox:hover ~ .mCSB_scrollTools,
+.mCS-autoHide:hover > .mCustomScrollBox > .mCSB_scrollTools,
+.mCS-autoHide:hover > .mCustomScrollBox ~ .mCSB_scrollTools {
+	opacity: 1;
+	filter: "alpha(opacity=100)";
+	-ms-filter: "alpha(opacity=100)";
+}
+.mCSB_scrollTools .mCSB_draggerRail {
+	background: rgba(0, 0, 0, 0.3);
+	filter: "alpha(opacity=40)";
+	-ms-filter: "alpha(opacity=40)";
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background: rgba(0, 0, 0, 0.3);
+	filter: "alpha(opacity=75)";
+	-ms-filter: "alpha(opacity=75)";
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(0, 0, 0, 0.4);
+	filter: "alpha(opacity=85)";
+	-ms-filter: "alpha(opacity=85)";
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(0, 0, 0, 0.5);
+	filter: "alpha(opacity=90)";
+	-ms-filter: "alpha(opacity=90)";
+}
+/* dark */
+.dark-mobile-menu .mCSB_scrollTools .mCSB_draggerRail,.dark-mobile-menu .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+	background: rgba(255, 255, 255, 0.35);
+}
+.dark-mobile-menu .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+	background: rgba(255, 255, 255, 0.45);
+}
+.dark-mobile-menu .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,.dark-mobile-menu .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+	background: rgba(255, 255, 255, 0.55);
+}
+/* Tipsy */
+.tipsy {
+	font-size: 14px;
+	position: absolute;
+	padding: 5px;
+	z-index: 100000000;
+}
+.tipsy-inner {
+	background-color: #000;
+	max-width: 200px;
+	padding: 5px 8px 4px 8px;
+	text-align: center;
+	-moz-box-shadow: 0 0 2px #000;
+	-webkit-box-shadow: 0 0 2px #000;
+	box-shadow: 0 0 2px #000;
+}
+.tipsy-arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	border: 5px dashed #000;
+}
+.tipsy-arrow-n {
+	border-bottom-color: #000;
+}
+.tipsy-arrow-s {
+	border-top-color: #000;
+}
+.tipsy-arrow-e {
+	border-left-color: #000;
+}
+.tipsy-arrow-w {
+	border-right-color: #000;
+}
+.tipsy-n .tipsy-arrow {
+	top: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-bottom-style: solid;
+	border-top: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.tipsy-nw .tipsy-arrow {
+	top: 0;
+	left: 10px;
+	border-bottom-style: solid;
+	border-top: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.tipsy-ne .tipsy-arrow {
+	top: 0;
+	right: 10px;
+	border-bottom-style: solid;
+	border-top: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.tipsy-s .tipsy-arrow {
+	bottom: 0;
+	left: 50%;
+	margin-left: -5px;
+	border-top-style: solid;
+	border-bottom: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.tipsy-sw .tipsy-arrow {
+	bottom: 0;
+	left: 10px;
+	border-top-style: solid;
+	border-bottom: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.tipsy-se .tipsy-arrow {
+	bottom: 0;
+	right: 10px;
+	border-top-style: solid;
+	border-bottom: none;
+	border-left-color: transparent;
+	border-right-color: transparent;
+}
+.tipsy-e .tipsy-arrow {
+	right: 0;
+	top: 50%;
+	margin-top: -5px;
+	border-left-style: solid;
+	border-right: none;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
+.tipsy-w .tipsy-arrow {
+	left: 0;
+	top: 50%;
+	margin-top: -5px;
+	border-right-style: solid;
+	border-left: none;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+}
