@@ -1,0 +1,315 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Alx Extensions\n"
+"POT-Creation-Date: 2019-01-19 16:28+0100\n"
+"PO-Revision-Date: 2018-09-21 21:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;number_format_i18n;date_i18n;esc_html__;esc_html_e;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/options.php:19
+msgid "Theme Extensions"
+msgstr ""
+
+#: inc/options.php:25
+msgid "Social Share"
+msgstr ""
+
+#: inc/options.php:31
+msgid "Image Upscale"
+msgstr ""
+
+#: inc/options.php:37
+msgid "Custom Sidebars"
+msgstr ""
+
+#: inc/options.php:43
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/options.php:49
+msgid "Meta Boxes"
+msgstr ""
+
+#: inc/options.php:57
+msgid "Enable Social Share"
+msgstr ""
+
+#: inc/options.php:65
+msgid "Twitter Username"
+msgstr ""
+
+#: inc/options.php:66
+msgid "Your @username will be added to share-tweets of your posts (optional)"
+msgstr ""
+
+#: inc/options.php:74
+msgid "Enable Image Upscale"
+msgstr ""
+
+#: inc/options.php:75
+msgid ""
+"Scales up small images and crops to the right thumbnail sizes (recommended)"
+msgstr ""
+
+#: inc/options.php:82
+msgid "Create Sidebars"
+msgstr ""
+
+#: inc/options.php:83
+msgid "You must save and refresh the page to see your new sidebars."
+msgstr ""
+
+#: inc/options.php:84
+msgid ""
+"Make sure that you save and refresh the page if you can not see the sidebars "
+"you have created."
+msgstr ""
+
+#: inc/options.php:88
+msgid "sidebar"
+msgstr ""
+
+#: inc/options.php:95
+msgid "Sidebar Title"
+msgstr ""
+
+#: inc/options.php:96
+msgid "The widget box title"
+msgstr ""
+
+#: inc/options.php:101
+msgid "Sidebar ID"
+msgstr ""
+
+#: inc/options.php:102
+msgid "This ID must be unique"
+msgstr ""
+
+#: inc/options.php:111 inc/widgets/alx-posts.php:19
+msgid "Alx Posts"
+msgstr ""
+
+#: inc/options.php:119 inc/widgets/alx-tabs.php:19
+msgid "Alx Tabs"
+msgstr ""
+
+#: inc/options.php:127
+msgid "Post Format: Audio"
+msgstr ""
+
+#: inc/options.php:135
+msgid "Post Format: Video"
+msgstr ""
+
+#: inc/post-formats.php:14
+msgid "Format: Audio"
+msgstr ""
+
+#: inc/post-formats.php:23
+msgid "Audio URL"
+msgstr ""
+
+#: inc/post-formats.php:36
+msgid "Format: Video"
+msgstr ""
+
+#: inc/post-formats.php:45
+msgid "Video URL"
+msgstr ""
+
+#: inc/share-footer.php:18 inc/share-footer.php:19 inc/share-footer.php:29
+#: inc/share-footer.php:42 inc/share.php:18
+msgid "Share"
+msgstr ""
+
+#: inc/share-footer.php:29
+msgid "on Twitter"
+msgstr ""
+
+#: inc/share-footer.php:42
+msgid "on Facebook"
+msgstr ""
+
+#: inc/share.php:19
+msgid "Tweet"
+msgstr ""
+
+#: inc/share.php:20
+msgid "Like"
+msgstr ""
+
+#: inc/share.php:21
+msgid "Pin It"
+msgstr ""
+
+#: inc/share.php:22
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:19
+msgid "Display posts from a category"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:141 inc/widgets/alx-tabs.php:317
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:145
+msgid "List Posts"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:149 inc/widgets/alx-tabs.php:329
+#: inc/widgets/alx-tabs.php:349
+msgid "Show thumbnails"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:152 inc/widgets/alx-tabs.php:332
+#: inc/widgets/alx-tabs.php:352 inc/widgets/alx-tabs.php:382
+msgid "Items to show"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:156 inc/widgets/alx-tabs.php:336
+#: inc/widgets/alx-tabs.php:356
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:157 inc/widgets/alx-tabs.php:337
+#: inc/widgets/alx-tabs.php:357
+msgid "All"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:160
+msgid "Order by:"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:162
+msgid "Most recent"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:163
+msgid "Most commented"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:164
+msgid "Random"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:168
+msgid "Posts from:"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:170 inc/widgets/alx-tabs.php:362
+msgid "All time"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:171 inc/widgets/alx-tabs.php:363
+msgid "This year"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:172 inc/widgets/alx-tabs.php:364
+msgid "This month"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:173 inc/widgets/alx-tabs.php:365
+msgid "This week"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:174 inc/widgets/alx-tabs.php:366
+msgid "Past 24 hours"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:179
+msgid "Post Info"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:183 inc/widgets/alx-tabs.php:419
+msgid "Show categories"
+msgstr ""
+
+#: inc/widgets/alx-posts.php:187 inc/widgets/alx-tabs.php:423
+msgid "Show dates"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:19
+msgid "List posts, comments, and/or tags with or without tabs."
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:57 inc/widgets/alx-tabs.php:321
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:58
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:59 inc/widgets/alx-tabs.php:371
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:60 inc/widgets/alx-tabs.php:387
+#: inc/widgets/alx-tabs.php:410
+msgid "Tags"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:221
+msgid "says:"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:325
+msgid "Enable recent posts"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:341
+msgid "Most Popular"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:345
+msgid "Enable most popular posts"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:360
+msgid "Post with most comments from:"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:375
+msgid "Enable recent comments"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:379
+msgid "Show avatars"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:391
+msgid "Enable tags"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:395
+msgid "Tab Order"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:398
+msgid "Recent posts"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:402
+msgid "Most popular"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:406
+msgid "Recent comments"
+msgstr ""
+
+#: inc/widgets/alx-tabs.php:415
+msgid "Tab Info"
+msgstr ""

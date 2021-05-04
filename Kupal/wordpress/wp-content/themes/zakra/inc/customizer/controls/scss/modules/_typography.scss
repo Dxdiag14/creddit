@@ -1,0 +1,75 @@
+/* Control: Typography. */
+
+span.select2-container.select2-container--default.select2-container--open {
+  z-index: 999999;
+}
+
+.customize-control-zakra-typography {
+
+  .zakra-typography-wrapper {
+
+    &.toggle-content {
+      display: none;
+    }
+  }
+
+  .zakra-group-fields {
+    padding: 12px 8px;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    position: relative;
+    margin-top: 10px;
+
+    &::before {
+      font-family: dashicons;
+      content: "\f142";
+      font-size: 40px;
+      color: #FFF;
+      position: absolute;
+      top: -10px;
+      right: -5px;
+    }
+
+    &::before {
+      font-family: dashicons;
+      content: "\f142";
+      font-size: 40px;
+      color: #FFF;
+      position: absolute;
+      top: -10px;
+      right: -5px;
+    }
+
+    .zakra-single-field {
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &::after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      .zakra-field-title {
+        font-size: 1em;
+        margin: 0;
+        flex-basis: 25%;
+      }
+
+      .zakra-field-content {
+        flex-grow: 1;
+
+        .wp-picker-active {
+          margin-top: 30px;
+          margin-left: -12.5%;
+        }
+      }
+    }
+  }
+}

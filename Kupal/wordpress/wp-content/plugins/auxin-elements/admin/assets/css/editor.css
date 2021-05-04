@@ -1,0 +1,45 @@
+/*------------------------
+   $editor buttons
+--------------------------*/
+.wp_themeSkin .mceIcon.mce_dropcap,
+.wp_themeSkin .mceIcon.mce_quote ,
+.wp_themeSkin .mceIcon.mce_button,
+.wp_themeSkin .mceIcon.mce_column,
+.wp_themeSkin .mceIcon.mce_divider,
+.wp_themeSkin .mceIcon.mce_highlight,
+.wp_themeSkin .mceIcon.mce_msgbox,
+.wp_themeSkin .mceIcon.mce_tabs,
+.wp_themeSkin .mceIcon.mce_vimeo,
+.wp_themeSkin .mceIcon.mce_utube,
+.wp_themeSkin .mceIcon.mce_vplayer,
+.wp_themeSkin .mceIcon.mce_video,
+.wp_themeSkin .mceIcon.mce_testimonial {
+    background: url(images/mini-element-icons.png) 0 0 no-repeat;
+}
+
+.wp_themeSkin .mceIcon.mce_dropcap { background-position    :-366px -8px; }
+.wp_themeSkin .mceIcon.mce_quote   { background-position    :-128px -128px; }
+.wp_themeSkin .mceIcon.mce_button  { background-position    :-366px -47px; }
+.wp_themeSkin .mceIcon.mce_column  { background-position    :-278px -247px; }
+.wp_themeSkin .mceIcon.mce_divider { background-position    :-308px -287px; }
+.wp_themeSkin .mceIcon.mce_highlight{ background-position   :-366px -88px; }
+.wp_themeSkin .mceIcon.mce_msgbox  { background-position    :-308px -248px; }
+.wp_themeSkin .mceIcon.mce_tabs    { background-position    :-128px -288px; }
+.wp_themeSkin .mceIcon.mce_testimonial { background-position:-158px -127px; }
+.wp_themeSkin .mceIcon.mce_utube   { background-position    :-366px -128px; }
+.wp_themeSkin .mceIcon.mce_vimeo   { background-position    :-218px -287px; }
+.wp_themeSkin .mceIcon.mce_video   { background-position    :-38px -288px; }
+
+/**
+ * Fix SVGs not showing correctly as featured images.
+ */
+ #postimagediv .inside .svg img {
+    width: 100%;
+}
+
+/**
+ * Fix for Gutenberg not showing featured images correctly.
+ */
+img.components-responsive-wrapper__content[src$=".svg"] {
+    position: relative;
+}

@@ -1,0 +1,67 @@
+.customize-control-zakra-slider {
+
+  .customize-control-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .zakra-slider {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 70%;
+    height: 6px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    margin-right: 16px;
+
+    .ui-slider-handle {
+      height: 18px;
+      width: 18px;
+      background-color: #fff;
+      position: absolute;
+      cursor: pointer;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      border-radius: 3px;
+      transform: translateX(-50%);
+    }
+
+    .ui-slider-range {
+      background-color: $c-primary;
+      height: 100%;
+      border-top-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+    }
+  }
+
+  .zakra-slider-input {
+    display: flex;
+    align-items: center;
+
+    .suffix {
+      margin-left: 2px;
+      font-size: 16px;
+    }
+
+    .slider-reset {
+      cursor: pointer;
+      font-size: 16px;
+      border: 1px solid #13a1dc;
+      color: #13a1dc;
+      padding: 4px;
+      margin-left: 4px;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      transition: 0.3s all;
+
+      &:hover {
+        background: #13a1dc;
+        color: #fff;
+      }
+    }
+  }
+}

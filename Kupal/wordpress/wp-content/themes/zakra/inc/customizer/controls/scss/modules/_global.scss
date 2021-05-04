@@ -1,0 +1,36 @@
+.customize-control {
+  input[type="number"] {
+    padding: 0 0 0 8px;
+  }
+}
+
+/* selectWoo */
+.select2-container--default .select2-selection--single {
+  border-color: #ddd;
+}
+
+.zakra-customizer-title-wrapper {
+  position: relative;
+  cursor: pointer;
+
+  .customize-control-title {
+    margin-right: 30px;
+    padding: 5px 0;
+  }
+
+  .zakra-toggle-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    a {
+      text-decoration: none;
+      background-color: #FFF;
+      padding: 4px;
+      margin-top: 3px;
+      display: block;
+      border-radius: 3px;
+      box-shadow: 0 0 1px 1px #ddd;
+    }
+  }
+}

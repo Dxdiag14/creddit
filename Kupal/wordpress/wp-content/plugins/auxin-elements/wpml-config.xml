@@ -1,0 +1,13 @@
+<wpml-config>
+  <custom-fields>
+    <custom-field action="translate">page_subtitle</custom-field>
+  </custom-fields>
+  <admin-texts>
+    <key name="phlox_theme_options">
+      <key name="auxin_login_message"/>
+      <key name="auxin_login_logo_image"/>
+      <key name="auxin_login_logo_width"/>
+      <key name="auxin_login_logo_height"/>
+    </key>
+  </admin-texts>
+</wpml-config>

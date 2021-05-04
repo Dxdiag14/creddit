@@ -1,0 +1,392 @@
+
+/* visual selector
+--------------------------*/
+.axi-visual-select { height: auto; display: inline-block; width: 100%; max-width: 900px; }
+.axi-visual-select:after { content: ""; display: table; clear: both; }
+.axi-visual-select .axi-select-item { float: left; border: 3px solid #d8d8d8; margin: 0 5px 5px 0; cursor: pointer; }
+.axi-visual-select .axi-select-item.axi-selected { border-color: #0077a3; }
+.axi-visual-select .axi-select-item.axi-selected img[src*="svg"] { -webkit-filter: brightness(40%) sepia(100%) hue-rotate(170deg) saturate(250%); filter: brightness(40%) sepia(100%) hue-rotate(170deg) saturate(250%); }
+.axi-visual-select .axi-select-item img { display: block; clear: both; }
+.axi-visual-select .axi-select-item video { display: block; }
+.axi-visual-select .axi-select-item.aux-small-height img, .axi-visual-select .axi-select-item.aux-small-height video { max-height: 82px; height: 82px; }
+.axi-visual-select .axi-select-item.aux-medium-height img, .axi-visual-select .axi-select-item.aux-medium-height video { max-height: 100px; height: 100px; }
+.axi-visual-select .axi-select-caption { display: block; font-size: 11px; padding: 2px 5px; background: #eee; margin-top: 2px; }
+
+/* visual selector color
+--------------------------*/
+.axi-visual-select .aux-color-selector { width: 22px; height: 22px; border: 2px solid #d8d8d8; }
+
+.aux-visual-selector-black { background-color: #3D3D3D; }
+
+.aux-visual-selector-white { background-color: #FFFFFF; }
+
+.aux-visual-selector-masala { background-color: #3D3D3D; }
+
+.aux-visual-selector-dark-gray { background-color: #AAAAAA; }
+
+.aux-visual-selector-ball-blue { background-color: #1BB0CE; }
+
+.aux-visual-selector-fountain-blue { background-color: #5BACBA; }
+
+.aux-visual-selector-shamrock { background-color: #2CC990; }
+
+.aux-visual-selector-curios-blue { background-color: #2C82C9; }
+
+.aux-visual-selector-light-sea-green { background-color: #1ABC9C; }
+
+.aux-visual-selector-emerald { background-color: #4EBA6F; }
+
+.aux-visual-selector-energy-yellow { background-color: #EEE657; }
+
+.aux-visual-selector-mikado-yellow { background-color: #FCCD0F; }
+
+.aux-visual-selector-pink-salmon { background-color: #FF91A9; }
+
+.aux-visual-selector-wisteria { background-color: #9E69AF; }
+
+.aux-visual-selector-lilac { background-color: #CEACD2; }
+
+.aux-visual-selector-pale-sky { background-color: #5F7487; }
+
+.aux-visual-selector-tower-gray { background-color: #ADBCC3; }
+
+.aux-visual-selector-william { background-color: #3A5F6F; }
+
+.aux-visual-selector-carmine-pink { background-color: #E74C3C; }
+
+.aux-visual-selector-persimmon { background-color: #FF6A55; }
+
+.aux-visual-selector-tan-hide { background-color: #FF9F55; }
+
+.aux-visual-selector-wild-watermelon { background-color: #FF6E78; }
+
+.aux-visual-selector-iceberg { background-color: #73B1D6; }
+
+.aux-visual-selector-dark-lavender { background-color: #745A90; }
+
+.aux-visual-selector-viking { background-color: #5CD5E6; }
+
+.aux-visual-selector-tiffany-blue { background-color: #00B5B5; }
+
+.aux-visual-selector-pastel-orange { background-color: #FCB941; }
+
+.aux-visual-selector-east-bay { background-color: #395781; }
+
+.aux-visual-selector-steel-blue { background-color: #4589B0; }
+
+.aux-visual-selector-half-backed { background-color: #84CCD1; }
+
+.aux-visual-selector-tapestry { background-color: #B95A84; }
+
+.aux-visual-selector-fire-engine-red { background-color: #CD2C24; }
+
+.aux-visual-selector-dark-orange { background-color: #FF8C00; }
+
+.aux-visual-selector-brick-red { background-color: #CC4452; }
+
+.aux-visual-selector-khaki { background-color: khaki; }
+
+/* Control media
+--------------------------*/
+.aux-elementor-control-media {
+  padding: 7px;
+  border: 1px solid;
+  height: 150px; }
+  .aux-elementor-control-media:not(:hover) {
+    border-color: #d5dadf; }
+    .aux-elementor-control-media:not(:hover) .aux-elementor-control-media-upload-button {
+      background-color: #d5dadf; }
+  .aux-elementor-control-media:hover {
+    border-color: #a4afb7; }
+    .aux-elementor-control-media:hover .aux-elementor-control-media-upload-button {
+      background-color: #a4afb7; }
+  .aux-elementor-control-media.elementor-media-empty .aux-elementor-control-media-attachment-area {
+    display: none; }
+  .aux-elementor-control-media:not(.elementor-media-empty) .aux-elementor-control-media-upload-button {
+    display: none; }
+  .aux-elementor-control-media > * {
+    height: 100%;
+    cursor: pointer;
+    position: relative; }
+
+.aux-elementor-control-media .fa-plus-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  font-size: 20px; }
+
+.aux-elementor-control-media-attachment-area:not(:hover) .aux-elementor-control-media-delete {
+  display: none; }
+
+.aux-elementor-control-media-attachment-area:hover .aux-elementor-control-media-attachment {
+  opacity: .5; }
+
+.aux-elementor-control-media-delete {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 9.5px;
+  font-size: 11px;
+  color: #fff;
+  background-color: #a4afb7;
+  text-transform: uppercase; }
+
+.aux-elementor-control-media-attachment {
+  height: 100%;
+  -webkit-background-size: auto;
+          background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Select2 Empty Issue */
+.select2-container  {
+    min-width: 100px;
+}
+
+/* Select2 icons issue
+--------------------------*/
+.select2-container [class^="auxicon-"]::before, .select2-container [class*=" auxicon-"]::before {
+  font-size: inherit;
+  padding-top: 0;
+}
+
+
+/* Badge for auxin elementor elements
+--------------------------*/
+.elementor-element{
+    position: relative;
+}
+.elementor-element .auxin-badge:after,
+.elementor-element .auxin-badge-pro:after,
+.auxin .elementor-element .icon .bdt-widget-icon:after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    padding: 3px 4px 2px;
+    border-style: solid;
+    font-weight: 600;
+    font-size: 9px;
+    text-align: right;
+    border-width: 0 0 1px 1px;
+    border-color: #eee;
+    border-bottom-left-radius: 2px;
+    text-transform: uppercase;
+    font-family: "Open Sans",Roboto,Helvetica,Arial,sans-serif;
+}
+.elementor-element .auxin-badge:after{
+    content: "Phlox";
+}
+
+.elementor-element .auxin-badge-pro{
+    color: #b7084e;
+}
+.elementor-element .auxin-badge-pro:after{
+    content: "Phlox Pro";
+    padding-bottom: 1px;
+    border-color: rgba(183, 8, 78, 0.2);
+}
+
+.elementor-tags-list [data-tag-name^="aux-"]:after {
+    content: "PHLOX";
+    border-color: rgba(20, 171, 244, 0.2);
+    border: 1px solid;
+    border-radius: 2px;
+    position: relative;
+    top: -7px;
+    left: 3px;
+    padding: 1px 2px;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+/* '.auxin-pro' is available when pro plugin is activated */
+.auxin-pro .elementor-element .auxin-badge-pro:after{
+    content: "Phlox";
+}
+
+.auxin-pro .elementor-element .auxin-badge-pro,
+div[id*="elementor-panel-category-auxin-"] .elementor-element .icon,
+div[id*="elementor-panel-category-auxin-"] .elementor-element .title {
+    color: #888;
+}
+
+.auxin-pro .elementor-element:hover .auxin-badge-pro,
+div[id*="elementor-panel-category-auxin-"] .elementor-element:hover .icon,
+div[id*="elementor-panel-category-auxin-"] .elementor-element:hover .title {
+    color: #4599c1 !important;
+}
+
+div[id*="elementor-panel-category-auxin-"] .elementor-element:hover .icon > i:after {
+    border-color: rgba(20, 171, 244, 0.2);
+}
+
+
+.auxin #elementor-panel-category-element-pack .elementor-element .icon{
+    color: #000;
+}
+.auxin #elementor-panel-category-element-pack .elementor-element:hover .icon,
+.auxin #elementor-panel-category-element-pack .elementor-element:hover .title{
+    color: #4599c1;
+}
+.auxin .elementor-element .icon .bdt-widget-icon:after{
+    content: "Phlox EP";
+    opacity:1;
+}
+
+
+/* Changing the featured color of Elementor
+--------------------------*/
+.auxin-pro .elementor-panel .elementor-panel-navigation .elementor-panel-navigation-tab.elementor-active,
+.auxin-pro .elementor-template-library-menu-item.elementor-active{
+    border-bottom-color: #4599c1;
+}
+.auxin-pro .elementor-panel #elementor-panel-header{
+    background-color: #4599c1;
+}
+
+/* Badge on auxin global sections
+--------------------------*/
+div[class*="elementor-control-aux_"]:before{
+    position: absolute;
+    top: 13px;
+    right: 8px;
+    text-transform: uppercase;
+    font-size: 9px;
+    padding: 2px 2px 1px;
+    border: 1px solid #ddd;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #aaa;
+}
+
+div[class*="elementor-control-aux_core"]:before{
+    content: 'Phlox';
+}
+div[class*="elementor-control-aux_pro"]:before{
+    content: 'Phlox Pro';
+    color: #b7084e;
+}
+
+.auxin-pro div[class*="elementor-control-aux_core"]:before,
+.auxin-pro div[class*="elementor-control-aux_pro"]:before{
+    content: 'Phlox';
+    letter-spacing: 0.1em;
+    color: #aaa;
+}
+
+@media (prefers-color-scheme: dark) {
+    .elementor-element .auxin-badge:after,
+    .elementor-element .auxin-badge-pro:after,
+    .auxin .elementor-element .icon .bdt-widget-icon:after,
+    .auxin-pro div[class*="elementor-control-aux_core"]:before,
+    .auxin-pro div[class*="elementor-control-aux_pro"]:before{
+        border-color:#555;
+        color: #999;
+    }
+
+    .auxin-pro .elementor-element .auxin-badge-pro,
+    div[id*="elementor-panel-category-auxin-"] .elementor-element .icon,
+    div[id*="elementor-panel-category-auxin-"] .elementor-element .title {
+        color: #e0e1e3;
+    }
+}
+
+/* Go pro notice in pro control sections
+--------------------------*/
+.auxin-elementor-panel-notice{
+    text-align:center;
+    color:#3d3d3d;
+    font-style:normal;
+}
+.auxin-elementor-upgrade-notice-icon{
+    font-size:60px !important;
+    color:#6e90bb;
+    margin-bottom:12px;
+}
+.auxin-elementor-panel-notice-title{
+    font-weight:500;
+    font-size:16px;
+    margin-bottom:12px;
+}
+.auxin-elementor-panel-notice-message{
+    font-size:13px;
+}
+.auxin-elementor-panel-notice-link{
+    font-size:14px;
+    height: 35px;
+    line-height: 23px;
+    margin-top: 15px;
+    letter-spacing: 0.05em;
+}
+.auxin-elementor-go-pro-link{
+    background-color: #0089ff !important;
+}
+
+/*Featured Color */
+.aux-featured-color-item-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 14px;
+}
+
+.select2-selection__rendered .aux-featured-color-item-wrapper {
+    padding-right: 0;
+}
+.aux-featured-color-item {
+    display: flex;
+    align-items: center;
+}
+.aux-featured-color-shape {
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    margin-right: 7px;
+    border: 1px solid #d5dadf;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.aux-featured-color-shape.aux-featured-color-empty{
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAAGUlEQVQYV2M4gwH+YwCGIasIUwhT25BVBADtzYNYrHvv4gAAAABJRU5ErkJggg==');
+    background-size: 9px 9px;
+}
+
+.aux-featured-color-dropdown .select2-results__options {
+    max-height: none;
+}
+
+.aux-featured-color-dropdown .select2-results__option[aria-selected="true"] .aux-featured-color-item-wrapper:after {
+    content: '';
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.364' height='4.949' viewBox='0 0 6.364 4.949'%3E%3Cpath id='Rectangle_2' data-name='Rectangle 2' d='M386.818,237.56l.688-.688,1.414,1.414,3.555-3.555.707.706-3.555,3.555-.688.688Z' transform='translate(-386.818 -234.733)' fill='%23e0e1e3'/%3E%3C/svg%3E");
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 6.4px;
+    height: 5px;
+}
+/* Hide Svg Upload Button in some elements
+--------------------------*/
+
+.elementor-control-aux_button_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_price_list_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_price_table_feature_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_progressbar_text_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_post_info_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_custom_list_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+/* .elementor-control-aux_new_icon .elementor-control-media__tool.elementor-control-svg-uploader, */
+.elementor-control-aux_text_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_text_btn_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_search_icon .elementor-control-media__tool.elementor-control-svg-uploader,
+.elementor-control-aux_shopping_cart_icon .elementor-control-media__tool.elementor-control-svg-uploader {
+    display: none;
+}
