@@ -19,5 +19,3 @@
 4. Click <b> Discy </b> then find Advanced settings. *located at the bottom*
 5. Click <b> Advanced settings </b> and go to import setting and paste ythe copied text from <b> exported code </b> earlier.
 6. Then click <b> Save options </b>
-
-# PUTANGINANYO.
